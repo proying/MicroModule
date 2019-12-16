@@ -11,4 +11,8 @@ public class Utils {
     void test() {
         int i = R.string.test_code_check_utils;
     }
+
+    public static String getText() {
+        return "Library Utils";
+    }
 }

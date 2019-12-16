@@ -1,11 +1,14 @@
 apply plugin: 'micro-module'
 apply plugin: 'com.android.application'
 
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
 android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.eastwood.demo"
+        applicationId "com.micromodule.demo"
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 1
@@ -63,6 +66,7 @@ microModule {
 
     include ':p_base'
     include ':p_common'
+    include ':p_cloud'
     include ':p_home'
 
     export ':main', ':p_home'

@@ -1,4 +1,3 @@
 dependencies {
     implementation microModule(':p_base')
-    implementation microModule(':p_cloud')
 }

@@ -75,5 +75,5 @@ microModule {
     include ':p_common'
     include ':p_utils'
 
-    export ':main'
+    export ':main', ':p_utils'
 }

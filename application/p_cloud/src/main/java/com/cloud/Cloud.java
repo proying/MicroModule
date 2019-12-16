@@ -6,10 +6,10 @@ import com.mircomodule.demo.R;
  * @author eastwood
  * createDate: 2018-05-29
  */
-public class Base {
+public class Cloud {
 
     void test() {
-        int i = R.string.base;
+        int i = R.string.cloud;
     }
 
 }

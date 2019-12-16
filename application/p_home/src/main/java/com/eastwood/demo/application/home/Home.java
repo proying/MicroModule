@@ -1,6 +1,6 @@
 package com.eastwood.demo.application.home;
 
-import com.eastwood.demo.application.R;
+import com.mircomodule.demo.R;
 
 /**
  * @author eastwood
